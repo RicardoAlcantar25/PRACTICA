@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    ;
+}
+
+body{
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 30px;
+    font-weight: 100px;
+
+}
+
+
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid yellow ;
+}
+th{
+    width: 10;
+    background-color: yellow;
+    color: black;
+}
+tr:nth-child(odd){
+    background-color: red;
+    color: white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+   border: 3px solid yellow;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.descripcion{
+    width: 40%;
+}
+.Tarjeta{
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    color: white;
+}
+.Cuerpo{
+    background-color: red;
+}
+.Tarjeta1{
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    color: white;
+}
+.Cuerpo2{
+    background-color: blue;
+}
+.Tarjeta2{
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    color: white;
+
+}
+.Cuerpo3{
+    background-color: green;
+}
+.Descripcion1{
+    width: 80%;
+}
+.Descripcion2{
+    width: 80%;
+}
+.Descripcion3{
+    width: 80%;
+}
+.Encabezado{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+@media(min-width:1146px) and (max-width:7000px){
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    }
+    .Tarjeta{
+        display: none;
+    }
+    .Tarjeta1{
+        display: none;
+    }
+    .Tarjeta2{
+        display: none;
+    }
+}
+@media(max-width:1145px){
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedor{
+        display: none;
+    }
+}
